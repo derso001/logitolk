@@ -43,7 +43,7 @@ class MainWindow(CTk):
        self.adaptive_ui()
 
        self.add_message("Демонстрація відображення зображення:",
-                        CTkImage(Image.open('Screenshot_1.png'), size=(300, 300)))
+                        CTkImage(Image.open('image.png'), size=(300, 300)))
 
        try:
            self.sock = socket(AF_INET, SOCK_STREAM)
