@@ -44,6 +44,10 @@ class MainWindow(CTk):
 
        self.add_message("Демонстрація відображення зображення:",
                         CTkImage(Image.open('image.png'), size=(300, 300)))
+       
+       
+# зміни в коді
+
 
        try:
            self.sock = socket(AF_INET, SOCK_STREAM)
